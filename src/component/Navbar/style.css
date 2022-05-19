@@ -13,9 +13,14 @@
 }
 
 .navbar {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar-nav {
     display: block;
+}
+
+.lg-reglage{
+    width: 40%;
 }
