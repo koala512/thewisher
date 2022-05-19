@@ -4,7 +4,7 @@ import './style.css'
 
 function RegisterBlock() {
     return (
-        <Card className="p-3">
+        <Card className="custom-card-login p-3">
             <Card.Title className="text-form">Diantre! je n'ai pas encore de compte</Card.Title>
             <Card.Body>
                 <Form>

@@ -1,11 +1,11 @@
 import {Button, Card, Form} from "react-bootstrap";
-import pp from './pp.png';
+
 import './style.css';
 
 
 function LoginBlock() {
     return (
-        <Card className="p-3">
+        <Card className="custom-card-login p-3">
             <Card.Title className='text-center text-form'>Coucou toi</Card.Title>
             <Card.Body>
                 <Form>
