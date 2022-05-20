@@ -1,5 +1,6 @@
 import {Button, Card, Form} from "react-bootstrap";
 import './usercard.css'
+import modif from "./modif.png"
 
 
 function UserCard(){
@@ -24,16 +25,16 @@ function UserCard(){
     <div className="container-form-custom"> 
     <Form.Control type="text" placeholder="nom" />
     <Button className="custom-btn-usercard"><img className="modif-picture"
-     src="./component/UserCard/modif.png"></img></Button>
+     src={modif}></img></Button>
     </div>
   </Form.Group>
 
     <Form.Group className="mb-3 form-group " controlId="formBasicEmail">
-    <Form.Label className="form-label">Email</Form.Label>
+    <Form.Label className="form-label">Adresse mail</Form.Label>
     <div className="container-form-custom"> 
     <Form.Control type="email" placeholder="Enter email" />
     <Button className="custom-btn-usercard"><img className="modif-picture"
-     src="./component/UserCard/modif.png"></img></Button>
+     src={modif}></img></Button>
     </div>
   </Form.Group>
 
@@ -42,8 +43,9 @@ function UserCard(){
     <div className="container-form-custom">    
     <Form.Control type="password" className="custom-form-control" placeholder="Password" />
     <Button className="custom-btn-usercard"><img className="modif-picture"
-     src="./component/UserCard/modif.png"></img></Button>
+     src={modif}></img></Button>
       </div>
+      
   </Form.Group>
 
     </form>
