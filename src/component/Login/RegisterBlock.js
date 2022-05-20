@@ -4,21 +4,21 @@ import './style.css'
 
 function RegisterBlock() {
     return (
-        <Card className="p-3">
-            <Card.Title>Diantre! je n'ai pas encore de compte</Card.Title>
+        <Card className="custom-card-login p-3">
+            <Card.Title className="text-form">Diantre! je n'ai pas encore de compte</Card.Title>
             <Card.Body>
                 <Form>
                     <Form.Group className="mb-3 " controlId="formBasicNomUtilisateur">
-                        <Form.Label htmlFor="inputNomUtilisateur">Nom d'utilisateur</Form.Label>
-                        <Form.Control type="username"/>
+                        <Form.Label htmlFor="inputNomUtilisateur" className="text-form">Nom d'utilisateur</Form.Label>
+                        <Form.Control type="username" className="text-area"/>
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label htmlFor="inputEmail">Email</Form.Label>
-                        <Form.Control type="email"/>
+                        <Form.Label htmlFor="inputEmail" className="text-form">Email</Form.Label>
+                        <Form.Control type="email" className="text-area"/>
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Label htmlFor="inputPassword">Mot de passe</Form.Label>
-                        <Form.Control type="password"/>
+                        <Form.Label htmlFor="inputPassword" className="text-form">Mot de passe</Form.Label>
+                        <Form.Control type="password" className="text-area"/>
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="Check me out"/>
@@ -26,8 +26,8 @@ function RegisterBlock() {
                 </Form>
             </Card.Body>
             <div className='d-flex justify-content-center'>
-                <Button variant="primary" type="submit">
-                    Connexion
+                <Button className="btn-submit" variant="primary" type="submit">
+                Se connecter
                 </Button>
             </div>
         </Card>);
