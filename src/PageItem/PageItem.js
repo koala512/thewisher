@@ -1,11 +1,8 @@
-import CardList from "../component/CardList/CardList";
-import './PageList.css'
 import Header from "../component/Header/Header";
 import NavVertical from "../component/NavVertical/NavVertical";
-import UserCard from "../component/UserCard/UserCard";
-import {Button} from "react-bootstrap";
+import CardList from "../component/CardList/CardList";
 
-function PageList() {
+function PageItem(){
     return (
         <>
             <Header/>
@@ -20,4 +17,4 @@ function PageList() {
     )
 }
 
-export default PageList;
+export default PageItem;
