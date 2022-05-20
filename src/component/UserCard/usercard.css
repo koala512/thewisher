@@ -4,7 +4,6 @@
     margin-right:450px;
    }
 .user-card{
-    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 700px;
@@ -29,4 +28,12 @@
 } 
 .container-form-custom{
     display:flex;
+}
+.modif-picture{
+    width:30px;
+    height:30px;
+}
+.custom-btn-usercard{
+    background-color: #fff;
+    border: none;
 }
