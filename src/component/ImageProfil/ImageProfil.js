@@ -1,4 +1,4 @@
-import './style.css';
+import './ImageProfil.css';
 import ImgPp from './pp nico.jpg'
 
 function ImageProfil (){
