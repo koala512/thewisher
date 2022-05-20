@@ -1,0 +1,26 @@
+.Navbar-vertical{
+    display: flex;
+    flex: 1;
+    color: white;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+.lg-reglage{
+    width: 40%;
+}

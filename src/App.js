@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Login from "./Login/Login";
-import UserCard from "./component/UserCard/UserCard";
+import Header from "./component/Header/Header";
+import NavVertical from "./component/Navbar/NavVertical";
+
 
 function App() {
   return (
-    <UserCard />
+
   );
 }
 
