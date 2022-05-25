@@ -1,7 +1,8 @@
 import './CardList.css'
-import {Card, Col, Container, Row} from "react-bootstrap";
-import iconDelete from './icon delete.png';
+import {Col, Row} from "react-bootstrap";
 import imgList from './unknown.png';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faTrash} from "@fortawesome/free-solid-svg-icons";
 
 
 function CardList() {
@@ -12,7 +13,7 @@ function CardList() {
                     <img className='img-list' src={imgList} alt='imagelist' />
                 </Col>
                 <Col className="text-black d-flex justify-content-center "> Titre / description</Col>
-                <Col><img src={iconDelete} alt='icone delete' className='float-end'/></Col>
+                <Col><FontAwesomeIcon icon={faTrash} size="2x" className='float-end mt-2'/></Col>
             </Row>
 
     )
