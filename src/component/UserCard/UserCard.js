@@ -1,6 +1,7 @@
 import {Button, Card, Form} from "react-bootstrap";
 import './usercard.css'
 import modif from "./modif.png"
+import ImageProfil from "../ImageProfil/ImageProfil";
 
 
 function UserCard() {
@@ -11,13 +12,13 @@ function UserCard() {
 
                     <div class="profile">
 
-                        <img src="https://i.imgur.com/JgYD2nQ.jpg" class="rounded-circle" width="80"/>
+                       <ImageProfil />
 
                     </div>
 
                 </div>
             </Card.Header>
-            <Card.Body className="card-body">
+            <Card.Body className="user-card-body">
                 <blockquote className="blockquote mb-0">
                     <form className="form-horizontal">
                         <Form.Group className="mb-3 form-group " controlId="formBasicText">

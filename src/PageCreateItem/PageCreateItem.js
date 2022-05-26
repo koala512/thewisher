@@ -9,10 +9,10 @@ function PageCreateItem() {
             <div className='page'>
                 <NavVertical/>
                 <div className='m-auto w-50'>
-                    <div className='h1 mb-5 text-center'>Récupérer votre Item</div>
+                    <div className='h1 mb-5 text-center'>Ajouter un article</div>
                     <Form className='m-auto text-center'>
                         <Form.Group className="mb-3" controlId="TitleWishlist">
-                            <Form.Label className='h4'>Titre de votre Item</Form.Label>
+                            <Form.Label className='h4'>Titre de votre article</Form.Label>
                             <Form.Control type="text"/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="DescriptionWishlist">

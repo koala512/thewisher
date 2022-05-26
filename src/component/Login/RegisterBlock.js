@@ -1,6 +1,6 @@
 import {Button, Card, Form} from "react-bootstrap";
-import pp from "./pp.png";
-import './style.css'
+
+import './LoginRegister.css'
 
 function RegisterBlock() {
     return (

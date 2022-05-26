@@ -7,7 +7,7 @@ function Header (){
         <Navbar bg="dark">
             <Container>
                 <Navbar.Brand>
-                    <span className='title'><Link to="/list">The Wisher</Link></span>
+                    <Link to="/list" className='link text-decoration-none text-white'>The Wisher</Link>
                 </Navbar.Brand>
             </Container>
         </Navbar>

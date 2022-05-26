@@ -1,6 +1,5 @@
 import {Button, Card, Form} from "react-bootstrap";
-
-import './style.css';
+import './LoginRegister.css';
 
 
 function LoginBlock() {
