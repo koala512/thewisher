@@ -1,0 +1,6 @@
+.background-app{
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    opacity: 0.33;
+}

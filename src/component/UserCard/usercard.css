@@ -1,0 +1,39 @@
+.profile img{
+    height: 200px;
+    width: 200px;
+    margin-right:450px;
+   }
+.user-card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    background-color:#232323;
+    border-style: none;
+   }
+.card-header{
+       background-color: #DC0000;
+       width: 700px;
+       height: 150px;
+   }
+.user-card-body{
+       background-color:#232323;
+       margin-left: 226px;
+   }
+.form-label{
+       color:white;
+   }
+.form-group{
+    display:flex;
+    justify-content:space-between;
+} 
+.container-form-custom{
+    display:flex;
+}
+.modif-picture{
+    width:30px;
+    height:30px;
+}
+.custom-btn-usercard{
+    background-color: #fff;
+    border: none;
+}

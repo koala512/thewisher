@@ -1,0 +1,23 @@
+.custom-card-login{
+    margin-top: 20%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #161515;
+    opacity: .8;
+}
+.btn-submit{
+    background-color: #F5DD00;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+.btn-submit:hover{
+    background-color: #ac9a00;
+}
+.text-form{
+    color: #fff;
+}
+.text-area{
+    background-color: #6B6B6B;
+}

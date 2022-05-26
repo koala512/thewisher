@@ -1,0 +1,38 @@
+
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+.lg-reglage{
+    width: 40%;
+}
+
+.lien {
+    text-decoration: none;
+}
+
+.dropdown-menu.show{
+    color: white;
+    background-color: #6C6C6C;
+}
+
+.dropdown-toggle , .dropdown-toggle:hover, .show > .btn-primary.dropdown-toggle, .show > .btn-primary.dropdown-toggle:focus {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+}
+
