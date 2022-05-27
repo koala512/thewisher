@@ -6,11 +6,18 @@ import {Link} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGear} from "@fortawesome/free-solid-svg-icons";
 
+
+//function to clearLocalStorage and redirect to login page
+function clearLocalStorage() {
+    localStorage.clear();
+    window.location.href = "/";
+}
+
 function NavVertical() {
     return (
         <Navbar bg="dark" expand="lg">
             <Navbar>
-                <Navbar.Brand href="#home"><Link to="/list" classname='text-decoration-none'> <ImageProfil/> </Link></Navbar.Brand>
+                <Navbar.Brand href="#home"><Link to="/list" className='text-decoration-none'> <ImageProfil/> </Link></Navbar.Brand>
             </Navbar>
             <Navbar>
                 <Navbar.Brand>
@@ -26,7 +33,7 @@ function NavVertical() {
                     title={<FontAwesomeIcon icon={faGear} size="2x"/>}
                      >
                     <Dropdown.Item className="text-white" eventKey="1">Mon compte</Dropdown.Item>
-                    <Dropdown.Item className="text-white" eventKey="2">Déconnexion</Dropdown.Item>
+                    <Dropdown.Item className="text-white" eventKey="2" onClick={clearLocalStorage}>Déconnexion</Dropdown.Item>
                     <Dropdown.Item className="text-white" eventKey="3">A propos</Dropdown.Item>
 
                 </DropdownButton>
